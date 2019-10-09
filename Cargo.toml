@@ -16,7 +16,7 @@ categories = ["data-structures", "no-std"]
 
 [dependencies]
 serde       = { git = "https://github.com/mesalock-linux/serde-sgx"}
-sgx_tstd    = {rev = "v1.0.9", get = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
+sgx_tstd    = {rev = "v1.0.9", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 #[dependencies.serde]
 #version = "1.0"
